@@ -1,0 +1,54 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+      <h3>About Me</h3>
+			<p>
+        Hello! I'm Shivam Maisuriya, a passionate web developer with a love for
+        modern web technologies. I have extensive experience working with various
+        web development tools and frameworks, including Vite, Tailwind CSS, and
+        Astro. My journey in web development began 3 years ago, and since then, I
+        have been constantly learning and evolving with the industry.
+      </p>
+      <p>
+        The purpose of this blog is to share my knowledge and experience with fellow
+        developers and tech enthusiasts. Whether you're a beginner or a seasoned
+        developer, my goal is to provide valuable insights, tutorials, and best
+        practices that can help you on your journey.
+      </p>
+      <p>
+        When I'm not coding, I love exploring new technologies and staying
+        up-to-date with the latest trends in the tech world.
+      </p>
+      <p>
+        <h4>What You'll Find Here</h4>
+        On this blog, you can expect to find:
+      </p>
+    
+      <ul>
+        <li>In-depth tutorials on Vite, Tailwind CSS, and Astro</li>
+        <li>Tips and best practices for modern web development</li>
+        <li>Articles on the latest trends and technologies in web development</li>
+        <li>Personal insights and experiences from my journey as a developer</li>
+      </ul>
+    
+      <h4>Stay Connected</h4>
+      I love connecting with fellow developers and tech enthusiasts. Feel free to reach
+      out to me on <a href="https://www.linkedin.com/in/shivam-maisuriya-80a077283/"
+        >LinkedIn</a
+      >. <br /> Let's learn and grow together!
+		</main>
+		<Footer />
+	</body>
+</html>
